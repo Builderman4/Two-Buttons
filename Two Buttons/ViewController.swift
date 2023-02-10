@@ -16,7 +16,8 @@ class ViewController: UIViewController {
 
     @IBOutlet var label: UILabel!
     
-    @IBAction func textField(_ sender: UITextField) {
+   
+    @IBAction func textField(_ sender: Any) {
     }
     
     @IBAction func setTextButtonTapped(_ sender: Any) {

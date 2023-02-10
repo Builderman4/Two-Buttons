@@ -40,7 +40,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
-                                    <action selector="textField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="lOY-FS-z5l"/>
+                                    <action selector="clearTextButtonTapped:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="sM5-kK-aKA"/>
+                                    <action selector="setTextButtonTapped:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Dje-aY-ss3"/>
+                                    <action selector="textField:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="MRM-Gf-JAq"/>
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Look at this app!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khI-8v-LzQ">
