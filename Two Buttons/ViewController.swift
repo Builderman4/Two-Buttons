@@ -14,16 +14,20 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet var label: UILabel!
+    @IBOutlet weak var textField: UITextField!
     
-   
-    @IBAction func textField(_ sender: Any) {
-    }
+    @IBOutlet weak var label: UILabel!
+    
+    
     
     @IBAction func setTextButtonTapped(_ sender: Any) {
+        
+        label.text = textField.text
     }
     
     @IBAction func clearTextButtonTapped(_ sender: Any) {
+        label.text = nil
+        textField.text = nil
     }
 }
 
